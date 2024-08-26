@@ -1,0 +1,38 @@
+@import "./variables.css";
+
+.container {
+  width: 1460px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 8px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid transparent;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-primary{
+    color: var(--dark);
+}
+.btn-primary:hover {
+    border: 2px solid var(--pure);
+    color: var(--pure);
+    background: transparent;
+}
+
+.btn-secondary{
+    background-color: transparent;
+    color: var(--pure);
+    border-color: var(--pure);
+    font-size: .8rem;
+}
+.btn-secondary:hover{
+    background-color: var(--pure);
+    color: var(--dark);
+}
