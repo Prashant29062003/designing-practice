@@ -320,14 +320,6 @@ let localData = [
   },
   {
     name: {
-      title: "Mrs",
-      first: "Mother",
-      last: "Teresa",
-    },
-    quote: "If you can't feed a hundred people, then feed just one.",
-  },
-  {
-    name: {
       title: "Ms",
       first: "Ruth",
       last: "Bader Ginsburg",
